@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    background-color: #75b2ca;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    padding-bottom: 40px;
+
+    background-image: linear-gradient(to right bottom, #7ac9c2, #dde2e1, rgb(231, 131, 131));
+    border-radius: 20px;
+    text-align: center;
+}
+
+#calculator {
+    padding: 10% 20%;
+    text-align: left;
+}
+
+h1 {
+    padding-top: 45px;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+form input, form select {
+    padding: 5px;
+    margin: 10px 0;
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid #7ac9c2;
+}
+
+form select {
+    width: 110px;
+    background-color: white;
+}
+
+form input[type="text"] {
+    width: 90px;
+}
+
+button {
+    width: 100%;
+    height: 3em;
+    background-color: #7ac9c2;
+    border: none;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 3em;
+}
+
+sup, small {
+    font-size: 1.1em;
+}
+
+#totalTip {
+    padding: 14px 0;
+    background-color: #7ac9c2;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 80vw;
+    }
+
+    
+}
